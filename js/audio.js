@@ -75,7 +75,7 @@ function init() {
   })()
   
 
-Disable right-click menu on page
+// Disable right-click menu on page
 window.addEventListener('contextmenu', function (e) { 
     // do something here... 
     e.preventDefault(); 

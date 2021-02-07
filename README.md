@@ -1,18 +1,18 @@
 ---
-# Procrastination EP by [MIGHT](https://mightmusic.tumblr.com/)
+# Sweet Jonny (2021) Production
 Light Music Badge web app
 
 ## Description
 
-Small music web app for artists featuring:
+Small music web app for artists/bands to follow mixing/mastering featuring:
 
 * Tracks and player
 * Lyrics
 * Artwork
 * Contact
 * Download link [ if applicable ]
-* Contact form
+* Feedback form
 
-<a href="https://SoundSpinning.github.io/Procrastination"><img src="./assets/Music-Badge-sm.jpg" alt="MIGHT Music Badge Procrastination"></a>
+<a href="https://soundspinning.github.io/SweetJonny2021/"><img src="./assets/Music-Badge-sm.jpg" alt="Sweet Jonny Music Badge"></a>
 
 ---

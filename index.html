@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return true;">
+<!-- HTML5 Music Badge | MB V0.3 Jan2021
+written by Sound Spinning | https://soundspinning.tumblr.com/ 
+-->
+
+<!-- head info starts here ... -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Music Badge | Sound Spinning</title>
+  <meta name="description" content="Music Badge App by Sound Spinning"/>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  
+  <!-- Custom CSS -->
+  <link href="css/audio.css" rel="stylesheet" type='text/css'>
+  <!-- Custom CSS always last style entry ! -->
+
+</head>
+<!-- head ends here ... -->
+
+<!-- body info starts here ... -->
+<body class="container px-0 land-1" >
+<!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+  
+  <div id="siri-container" class="container outer land-1 back m-0 pt-3 pb-1">
+
+    <div class="row no-show">
+      <a class="col-4 ps-3 pe-0 justify-content-center" href="#" data-bs-toggle="modal" data-bs-target="#modal-Cover" data-bs-whatever="cover" data-bs-dismiss="modal" aria-hidden="true">
+        <img class="img-fluid" src="assets/EP-2018-sm.jpg" alt="MIGHT Procrastination EP cover">
+      </a>
+      <span class="no-show navbar-txt col-8 ps-0">
+        <a class="btn-link" href="https://mightmusic.tumblr.com/" target="_blank"   rel="noopener noreferrer"><h1 class="mb-0">MIGHT</h1></a>
+        <p class="mb-0 pt-1">a Music Venture from Brighton<br>
+          <span class="my-0 p-0" data-bs-title="envelope-closed" aria-hidden="true"><i class="bi bi-envelope-fill"></i></span><a class="btn-link" href="mailto:mightbrighton@gmail.com">&nbsp;&nbsp;mightbrighton@gmail.com</a>
+        </p>
+        <p class="list-tit mt-sm-3">'Procrastination' EP <small>(2018)</small></p>
+      </span>
+    </div>
+
+    <h2 class="no-show text-sm-left ms-1 my-1 d-flex justify-content-between">
+      <!-- Nav menu for TABS -->
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-link active btn-link" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">EP</a>
+        <a class="nav-link btn-link" id="nav-feedback-tab" data-bs-toggle="tab" href="#nav-feedback" role="tab" aria-controls="nav-feedback" aria-selected="false">Feedback</a>
+      </div>
+      <!-- CONTACT button -->
+      <span data-bs-toggle="tooltip" title="Contact" data-bs-placement="left" data-bs-delay="300">
+        <button type="button" class="btn btn-secondary btn-info px-2 pt-0" data-bs-toggle="modal" data-bs-target="#modal-Info" data-bs-whatever="Info" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-info-circle-fill"></i></button>
+      </span>
+    </h2>
+
+    <!-- Main TABs content -->
+    <div class="tab-content" id="nav-tabContent">
+    <!-- TAB-home -->
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+    <!-- accordion panel -->
+    <div class="land-2 accordion" id="accordion-1">
+      <div class="card mb-2 p-1">
+        <div class="card-header border-0 px-0 py-1" id="headingOne">
+          <h2 class="card-tit mb-0 px-2">
+            <button id="Tracks" class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">T R A C K S</button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-bs-parent="#accordion-1">
+          <div class="card-body">
+            <!-- Track 1 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave py-1"></i>
+              <h6 class="py-1 m-0">ORB</h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2 pt-0" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                </button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Might - Procrastination - 01 ORB.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio> 
+            <br>
+
+            <!-- Track 2 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">CALL</h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2 pt-0" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Might - Procrastination - 02 CALL.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+            <!-- Track 3 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">THEM</h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2 pt-0" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Might - Procrastination - 03 THEM.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+            <!-- Track 4 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">DOER</h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2 pt-0" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Might - Procrastination - 04 DOER.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+          </div>
+          <!-- card body ends -->
+        </div>
+        <!-- collapsable content ends -->
+      </div>
+      <!-- card ends -->
+    </div>
+    <!-- accordeon ends -->
+    </div>
+    <!-- TAB-home ends-->
+
+    <!-- TAB-feedback -->
+    <div class="tab-pane fade" id="nav-feedback" role="tabpanel" aria-labelledby="nav-feedback-tab">
+      <form class="needs-validation" 
+        novalidate
+        action="https://formspree.io/f/mzbkwyzw"
+        method="POST"
+        enctype="multipart/form-data">
+        <input name="_redirectTo" type="hidden" value="https://soundspinning.github.io/Procrastination">
+        <!-- Subject as hidden -->
+        <input name="_subject" type="hidden" value="MIGHT 'Procrastination' EP | Feedback">
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required name="_replyto">
+          <div class="invalid-feedback">
+            Please enter a valid email.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="messageInput" class="form-label">Message</label>
+          <textarea class="form-control" id="messageInput" rows="3" placeholder="write your feedback ..." required name="message"></textarea>
+          <div class="invalid-feedback">
+            Please enter a message.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary btn-link" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- TAB-feedback ends-->
+    
+    </div>
+    <!-- Main TABs content ends -->
+    
+
+    
+    <!-- FOOTER -->
+    <p class="no-show m-0 pt-1 ps-1 d-flex justify-content-between" style="color: grey;">
+      <small>MB by &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small>
+      <small>Free EP <a class="btn-link" href="https://www.dropbox.com/s/zdhuyhd1ntmzk78/MIGHT%20-%20Procrastination.zip?dl=1" download>download</a></small>
+    </p>
+    <!-- FOOTER end -->
+  </div>
+  <!-- main container ends -->
+
+
+  <!-- ALL MODALS from here -->
+  <!-- modal dialogues -->
+  <div class="modal fade" id="modal-Cover" tabindex="-1" role="dialog" aria-labelledby="modal-Cover" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-3 pb-0 px-0 d-block">
+          <h4 class="modal-title mb-1 ps-2">Procrastination EP Cover</h4>
+          <div class="modal-body m-0 p-0">
+            <img class="img-fluid" src="assets/EP-2018-sm.jpg" alt="MIGHT Procrastination EP cover">
+            <img class="img-fluid" src="assets/EP-2018-back-sm.jpg" alt="MIGHT Procrastination EP back cover">
+          </div>
+                        
+          <button type="button" class="btn btn-secondary btn-minus" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+          
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <!-- INFO modal -->
+  <div class="modal fade" id="modal-Info" tabindex="-1" role="dialog" aria-labelledby="modal-Info" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-3 pb-1 px-0 d-block">
+          <h4 class="modal-title mb-1 ps-3">MIGHT</h4>
+          <div class="modal-body mx-0 pt-1 pb-0">
+            A Music Venture from Brighton <small>(UK)</small>
+            <br>
+            <p class="mb-0"><span class="my-0 p-0" data-bs-title="globe" aria-hidden="true"><i class="bi bi-globe"></i></span><a class="btn-link" href="https://mightmusic.tumblr.com/" target="_blank"   rel="noopener noreferrer">&nbsp;&nbsp;mightmusic.tumblr.com</a>
+              <br>
+              <span class="my-0 p-0" data-bs-title="envelope-closed" aria-hidden="true"><i class="bi bi-envelope-fill"></i></span><a class="btn-link" href="mailto:mightbrighton@gmail.com">&nbsp;&nbsp;mightbrighton@gmail.com</a>
+            </p>
+            <!-- Free SVG icons for popular brands from https://simpleicons.org/ -->
+            <p class="social-icons m-0 pt-1">
+              <span class="me-2"><a href="https://www.youtube.com/user/MightBrighton" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" title="YouTube" data-bs-placement="auto" data-bs-delay="300"><iclass="bibi-youtube" style="color: red;font-size: 2.2rem;background-color: unset;"></i></a></span>
+              <span class="me-2"><a href="https://soundcloud.com/mightmusic" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" title="SoundCloud" data-bs-placement="auto" data-bs-delay="300"><imgsrc="fontssoundcloud.svg" style="background-color: orange;"/></a></span>
+            </p>
+          </div>
+          <p class="m-0 pt-0 ps-1" style="color: lightgrey;">MB <small>V0.3 &nbsp;Jan2021 &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+          <button type="button" class="btn btn-secondary btn-minus" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <!-- LYRICS modals -->
+  <div class="modal fade" id="modal-T1" tabindex="-1" role="dialog" aria-labelledby="modal-T1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">ORB</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+            You can take your freedom, and shove it up your back.<br>
+            You can take your castles, and build a bigger one.<br>
+            <br>
+            You can bring the noise, and fill a room or two.<br>
+            You can bring down a town, I don't care ...<br>
+            I don't know what now (x4).<br>
+            <br>
+            I don't see how it happens, I see that bird again.<br>
+            I don't see how it happens, I repeat, every single day.<br>
+            <br>
+            I was brought some flowers, I regret not to smell again.<br>
+            When I count the hours, none are mine and feel so ever safe.<br>
+            Feels so ever safe (x4).<br>
+            <br>
+            (Chorus)<br>
+            What a beautiful day, turn it (a)round and make it feel right.<br>
+            Turn it around and make it feel ... (x2).<br>
+            <br>
+            I regret the hours, I spent feeling all the rage.<br>
+            I can feel the glory, but that's for only some.<br>
+            <br>
+            When you lose all the hours, I don't care, I don't know what now.<br>
+            When you lose the hours, I don't care, I don't know what now.<br>
+            <br>
+            I don't know what now (x4).<br>
+            <br>
+            (Chorus)<br>
+            What a beautiful day, turn it (a)round and make it feel right.<br>
+            Turn it around and make it feel ... (x many).<br>
+            </p>
+            <p class="m-0 ps-1" style="color: lightgrey;"><small>Dedicated to Joseba</small></p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2" style="color: lightgrey;"><small>&copy; <a class="btn-link" href="https://mightmusic.tumblr.com/" target="_blank" rel="noopener noreferrer">MIGHT</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <div class="modal fade" id="modal-T2" tabindex="-1" role="dialog" aria-labelledby="modal-T2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">CALL</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+            In my darkest hour.<br>
+            In the deepest hole.<br>
+            You took your time, and let me down, then gave me hell.<br>
+            <br>
+            You want confessions? You repent your sins?<br>
+            Somehow I don't have time, for your cast-iron lies,<br>
+            and your sincere tears.<br>
+            <br>
+            Wait until it falls, then let me in.<br>
+            Wait until I fall, then let me in.<br>
+            Let me in... (x3).<br>
+            <br>
+            (repeat as above)<br>
+            <br>
+            Waiting for calls, confessions are made.<br>
+            Call now 999.  (x 2)<br>
+            <br>
+            You gonna have to let it go (x4)<br>
+            <br>
+            Waiting for calls, confessions are made.<br>
+            Call now 999.  (x 2)<br>
+            <br>
+            <br>
+            You gonna have to let it go (x4)
+            <br><br>
+            Let it be, and let it go (x4)
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2" style="color: lightgrey;"><small>&copy; <a class="btn-link" href="https://mightmusic.tumblr.com/" target="_blank" rel="noopener noreferrer">MIGHT</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <div class="modal fade" id="modal-T3" tabindex="-1" role="dialog" aria-labelledby="modal-T3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">THEM</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+            I don't wanna touch them …<br>
+            I don't wanna feel like they do …<br>
+            I don't want to please them anymore.<br>
+            Anymoooooore …<br>
+            <br>
+            
+            I don't want to be with them.<br>
+            I don't feel like going all along.<br>
+            I don't feel like coping so well.<br>
+            So weeeeeeeell …<br>
+            <br>
+            
+            
+            I would like, something dry and cold.<br>
+            I would stretch, every single nerve.<br>
+            I would dance, It's ok …<br>
+            (x 2)<br>
+            <br>
+            (Repeat all)<br>
+            <br>
+            Cha cha raaa cha cha raaa.<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2" style="color: lightgrey;"><small>&copy; <a class="btn-link" href="https://mightmusic.tumblr.com/" target="_blank" rel="noopener noreferrer">MIGHT</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <div class="modal fade" id="modal-T4" tabindex="-1" role="dialog" aria-labelledby="modal-T4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">DOER</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+            You can do, you can do, you can do,<br>
+            you can do what you want.<br>
+            And as long, and as long, and as long,<br>
+            and as long as you know.<br>
+            <br>
+            I can do, I can do, I can do,<br>
+            I can do what I want.<br>
+            Take it in, take it out, as you know,<br>
+            you can never be found.<br>
+            <br>
+            
+            What you gonna do, what you gonna do about it.<br>
+            What you gonna do, nothing’s gonna change.<br>
+            Nothing’s gonna change.<br>
+            <br>
+            Now you know what I'm like,<br>
+            And you know that I never back down.<br>
+            And that I may not stand for your dicking around.<br>
+            <br>
+            And you gave all your Love,<br>
+            and you took all the time in the world.<br>
+            Wrapped it all up in a bow,<br>
+            and gave it to somebody else.<br>
+            <br>
+            
+            What you gonna do, what you gonna do about it.<br>
+            What you gonna do, nothing’s gonna change.<br>
+            Nothing’s gonna change.<br>
+            <br>
+            
+            Idle threats in extra time, wasted breath.<br>
+            I’m tired of trying,<br>
+            You know, Yes, yes, you know.<br>
+            <br>
+            Saving bridges, built and burned.<br>
+            Pasting over cracks – It'll never work.<br>
+            Yes, yes, you know, you know.<br>
+            Yes, yes, you know.<br>
+            <br>
+            
+            You can do, you can do, you can do,<br>
+            you can do what you want.<br>
+            And as long, and as long, and as long,<br>
+            and as long as you know.<br>
+            <br>
+            I can do, I can do, I can do,<br>
+            I can do what I want.<br>
+            I won't be here when you come home.<br>
+            <br>
+            What you gonna do, what you gonna do about it.<br>
+            What you gonna do, nothing’s gonna change.<br>
+            Nothing’s gonna change.<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2" style="color: lightgrey;"><small>&copy; <a class="btn-link" href="https://mightmusic.tumblr.com/" target="_blank" rel="noopener noreferrer">MIGHT</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <!-- LYRICS modals end -->
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap CDNs -->
+  <!-- Bootstrap 5.0 Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
+
+  <!-- CUSTOM JS -->
+  <script src="js/audio.js"></script>
+
+</body>
+<!-- body ends here ... -->
+</html>

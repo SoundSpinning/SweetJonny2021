@@ -226,7 +226,7 @@ i.bi {
 }
 
 .land-1.back {
-  background-image: url("../assets/EP-2018-sm.jpg");
+  background-image: url("https://sweetjonny.co.uk/assets/sj-logo-opt.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 73%;
@@ -235,6 +235,10 @@ i.bi {
 .land-2.accordion {
   top: 200px;
   position: relative;
+}
+
+.copy {
+  color: #454545;
 }
 
 .no-show {

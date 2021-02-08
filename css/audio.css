@@ -255,7 +255,13 @@ i.bi {
    ================================================= */
 
 /* ------------ Mobile First Method ------------ */
-/*
+/* Remove 2nd heading when tiny screens */
+@media screen and (max-width : 320px) {
+  .sub-head {
+    display: none !important;
+  }
+}
+
 /* X-Small [none] devices (portrait phones, < 576px) */ 
 /* No media query for `xs` since this is the default in Bootstrap */
 @media screen and (max-width : 576px) {

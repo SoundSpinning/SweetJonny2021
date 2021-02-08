@@ -35,7 +35,7 @@ label {
 
 .navbar-txt {
   color: var(--color-2);
-  text-align:center;
+  text-align: center;
 }
 
 .navbar-txt span {
@@ -110,6 +110,10 @@ h6 {
 .btn-link, .btn-secondary {
   -webkit-transition: all 0.7s cubic-bezier(1,1,.43,1.23);
   transition: all 0.7s cubic-bezier(1,1,.43,1.23);
+}
+
+.nav-link.btn-link {
+  padding: 0.5rem;
 }
 
 .btn-secondary {

@@ -85,6 +85,10 @@ h6 {
   padding: 3px 0 3px 10px;
 }
 
+.card-tit:active *, .card-tit:focus * {
+  background-color: black;
+}
+
 .card-tit:hover * {
   background-color: var(--color-2);
   border-color: black;
@@ -95,6 +99,7 @@ h6 {
 .btn-link {
   text-decoration: none;
   color: var(--txt-col-1);
+  /* background-color: unset; */
 }
 
 .btn-link:hover, .btn-link:active {
@@ -155,12 +160,12 @@ i.bi {
 
 .btn-minus {
   position: absolute;
-  padding: 0px;
+  /* padding: 0px; */
   margin: 0px;
-  top: 0.5rem;
+  top: 0.4rem;
   right: 0.5rem;
-  width: 30px;
-  height: 30px;
+  /* width: 30px;
+  height: 30px; */
   border-width: 0px;
   color: var(--color-2);
   background-color: teal;
@@ -189,9 +194,9 @@ i.bi {
   border-width: 0px;
   background-color: teal;
   line-height: initial;
-  display: inline-block;
+  /* display: inline-block;
   width: 35px;
-  height: 35px;
+  height: 35px; */
 }
 
 .btn-info:hover {
@@ -251,7 +256,7 @@ i.bi {
 
 
 /* =================================================
-   =         Bootstrap 5.0 Media Queries             =
+   =         Bootstrap 5.x Media Queries             =
    ================================================= */
 
 /* ------------ Mobile First Method ------------ */

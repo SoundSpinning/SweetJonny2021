@@ -1,0 +1,519 @@
+{ "tabs": [
+    {
+    "n_tab":1,
+    "tabTit": "M-0",
+    "name": "nav-m0",
+    "title": "Mix-0, G-Zero",
+    "text": " : Zero production. Only tech fixes on mics phase &amp; allignment from studio. Fader balance added. This is our ref for MAX dynamics as played &amp; recorded. After production, dynamics get gradually squashed, and we want to keep an eye on that.",
+    "active": "show active",
+    "collapse": "collapse",
+    "tabId": "Tracks",
+    "tracks": [
+      {
+        "trackId":1,
+        "name": "Pay the Piper",
+        "year": " (2021)",
+        "file": "PayThePiper-mst1_13Mar2021.mp3"
+      },
+      {
+        "trackId":2,
+        "name": "Banger Racer",
+        "year": " (2021)",
+        "file": "Banger_Racer-raw_clean_16Jan2021.mp3"
+      },
+      {
+        "trackId":3,
+        "name": "I Hate",
+        "year": " (2022)",
+        "file": "I_Hate-mix0_27Nov2021.mp3"
+      },
+      {
+        "trackId":4,
+        "name": "Cheesy Chips",
+        "year": " (2022)",
+        "file": "Cheesy_Chips-mix0_14Dec2021.mp3"
+      },
+      {
+        "trackId":5,
+        "name": "Scour",
+        "year": " (2023)",
+        "file": "Scour-mix0_16Oct2022.mp3"
+      },
+      {
+        "trackId":6,
+        "name": "Concrete",
+        "year": " (2023)",
+        "file": "Concrete-mix0_11Dec2022.mp3"
+      },
+      {
+        "trackId":7,
+        "name": "Bois",
+        "year": " (2023)",
+        "file": "Bois-mix0_11Dec2022.mp3"
+      },
+      {
+        "trackId":8,
+        "name": "Hillians",
+        "year": " (2023)",
+        "file": "Hillians-mix0_25Jun2023.mp3"
+      },
+      {
+        "trackId":9,
+        "name": "King Of Comedy",
+        "year": " (2023)",
+        "file": "King_Of_Comedy-mix0_26Jun2023.mp3"
+      },
+      {
+        "trackId":10,
+        "name": "Forget Me Not",
+        "year": " (2023)",
+        "file": "Forget_me_Not-mix0_25Jun2023.mp3"
+      }
+    ]
+    },
+    {
+      "n_tab":2,
+      "name": "nav-m1",
+      "tabTit": "M-1",
+      "title": "Mix-1",
+      "text": " : First layer of minor production on bass &amp; vox. No micro-edits, fader riding, reverb, room ambience added as yet. Checking on keeping balance &amp; dynamics while adding some depth.",
+      "active": "",
+      "collapse": "collapse show",
+      "tabId": "",
+      "tracks": [
+        {
+          "trackId":1,
+          "name": "Pay the Piper",
+          "year": " (2021)",
+          "file": "Pay_the_Piper-mix1_24Jan2021.mp3"
+        },
+        {
+          "trackId":2,
+          "name": "Banger Racer",
+          "year": " (2021)",
+          "file": "Banger_Racer-mix1_24Jan2021.mp3"
+        },
+        {
+          "trackId":3,
+          "name": "I Hate",
+          "year": " (2022)",
+          "file": "I_Hate-mix1_28Nov2021.mp3"
+        },
+        {
+          "trackId":4,
+          "name": "Cheesy Chips",
+          "year": " (2022)",
+          "file": "Cheesy_Chips-mix1_14Dec2021.mp3"
+        },
+        {
+          "trackId":5,
+          "name": "Scour",
+          "year": " (2023)",
+          "file": "Scour-mix1_18Feb2023.mp3"
+        },
+        {
+          "trackId":6,
+          "name": "Concrete",
+          "year": " (2023)",
+          "file": "Concrete-mix1_26Feb2023.mp3"
+        },
+        {
+          "trackId":7,
+          "name": "Bois",
+          "year": " (2023)",
+          "file": "Bois-mix1_26Feb2023.mp3"
+        },
+        {
+          "trackId":8,
+          "name": "Hillians",
+          "year": " (2023)",
+          "file": "Hillians-mix1_26Jun2023.mp3"
+        },
+        {
+          "trackId":9,
+          "name": "King Of Comedy",
+          "year": " (2023)",
+          "file": "King_Of_Comedy-mix1_26Jun2023.mp3"
+        },
+        {
+          "trackId":10,
+          "name": "Forget Me Not",
+          "year": " (2023)",
+          "file": "Forget_me_Not-mix1_26Jun2023.mp3"
+        }
+      ]
+      },
+      {
+        "n_tab":3,
+        "name": "nav-m2",
+        "tabTit": "M-2",
+        "title": "Mix-2",
+        "text": " : All in now. Mixes 75% there before Mastering.",
+        "active": "",
+        "collapse": "collapse show",
+        "tabId": "",
+        "tracks": [
+          {
+            "trackId":1,
+            "name": "Pay the Piper",
+            "year": " (2021)",
+            "file": "Pay_the_Piper-mix2_14Feb2021.mp3"
+          },
+          {
+            "trackId":2,
+            "name": "Banger Racer",
+            "year": " (2021)",
+            "file": "Banger_Racer-mix2_14Feb2021.mp3"
+          },
+          {
+            "trackId":3,
+            "name": "I Hate",
+            "year": " (2022)",
+            "file": "I_Hate-mix2b_19Mar2022.mp3"
+          },
+          {
+            "trackId":4,
+            "name": "Cheesy Chips",
+            "year": " (2022)",
+            "file": "Cheesy_Chips-mix2_18Mar2022.mp3"
+          },
+          {
+            "trackId":5,
+            "name": "Scour",
+            "year": " (2023)",
+            "file": "Scour-mix2_06Mar2023.mp3"
+          },
+          {
+            "trackId":6,
+            "name": "Concrete",
+            "year": " (2023)",
+            "file": "Concrete-mix2_07Mar2023.mp3"
+          },
+          {
+            "trackId":7,
+            "name": "Bois",
+            "year": " (2023)",
+            "file": "Bois-mix2_07Mar2023.mp3"
+          },
+          {
+            "trackId":8,
+            "name": "Hillians",
+            "year": " (2023)",
+            "file": "Hillians-mix2_01Aug2023.mp3"
+          },
+          {
+            "trackId":9,
+            "name": "King Of Comedy",
+            "year": " (2023)",
+            "file": "King_Of_Comedy-mix2_11Aug2023.mp3"
+          },
+          {
+            "trackId":10,
+            "name": "Forget Me Not",
+            "year": " (2023)",
+            "file": "Forget_me_Not-mix2_15Aug2023.mp3"
+          }
+        ]
+        },
+        {
+          "n_tab":4,
+          "name": "nav-m3",
+          "tabTit": "M-3",
+          "title": "Mix-3",
+          "text": " : Mixes 90% there before Mastering.",
+          "active": "",
+          "collapse": "collapse show",
+          "tabId": "",
+          "tracks": [
+            {
+              "trackId":1,
+              "name": "Pay the Piper",
+              "year": " (2021)",
+              "file": "Pay_the_Piper-mix3_20Feb2021.mp3"
+            },
+            {
+              "trackId":2,
+              "name": "Banger Racer",
+              "year": " (2021)",
+              "file": "Banger_Racer-mix3_20Feb2021.mp3"
+            },
+            {
+              "trackId":3,
+              "name": "I Hate",
+              "year": " (2022)",
+              "file": "I_Hate-mix3_18Jun2022.mp3"
+            },
+            {
+              "trackId":4,
+              "name": "Cheesy Chips",
+              "year": " (2022)",
+              "file": "Cheesy_Chips-mix3_18Jun2022.mp3"
+            },
+            {
+              "trackId":5,
+              "name": "Scour",
+              "year": " (2023)",
+              "file": "Scour-mix3_19Mar2023.mp3"
+            },
+            {
+              "trackId":6,
+              "name": "Concrete",
+              "year": " (2023)",
+              "file": "Concrete-mix3_19Mar2023.mp3"
+            },
+            {
+              "trackId":7,
+              "name": "Bois",
+              "year": " (2023)",
+              "file": "Bois-mix3_19Mar2023.mp3"
+            },
+            {
+              "trackId":8,
+              "name": "Hillians",
+              "year": " (2023)",
+              "file": "Hillians-mix3_05Sep2023.mp3"
+            },
+            {
+              "trackId":9,
+              "name": "King Of Comedy",
+              "year": " (2023)",
+              "file": "King_Of_Comedy-mix3_05Seo2023.mp3"
+            },
+            {
+              "trackId":10,
+              "name": "Forget Me Not",
+              "year": " (2023)",
+              "file": "Forget_me_Not-mix3_05Sep2023.mp3"
+            }
+          ]
+          },
+          {
+            "n_tab":5,
+            "name": "nav-m4",
+            "tabTit": "M-4",
+            "title": "Mix-4",
+            "text": " : Mixes 99.999% there before Mastering.",
+            "active": "",
+            "collapse": "collapse show",
+            "tabId": "",
+            "tracks": [
+              {
+                "trackId":1,
+                "name": "Pay the Piper",
+                "year": " (2021)",
+                "file": "Pay_the_Piper-mix4b_13Mar2021.mp3"
+              },
+              {
+                "trackId":2,
+                "name": "Banger Racer",
+                "year": " (2021)",
+                "file": "Banger_Racer-mix4b_06Mar2021.mp3"
+              },
+              {
+                "trackId":3,
+                "name": "I Hate",
+                "year": " (2022)",
+                "file": "I_Hate-mix4_17Jul2022.mp3"
+              },
+              {
+                "trackId":4,
+                "name": "Cheesy Chips",
+                "year": " (2022)",
+                "file": "Cheesy_Chips-mix4_17Jul2022.mp3"
+              },
+              {
+                "trackId":5,
+                "name": "Scour",
+                "year": " (2023)",
+                "file": "Scour-mix4_25Mar2023.mp3"
+              },
+              {
+                "trackId":6,
+                "name": "Concrete",
+                "year": " (2023)",
+                "file": "Concrete-mix4_25Mar2023.mp3"
+              },
+              {
+                "trackId":7,
+                "name": "Bois",
+                "year": " (2023)",
+                "file": "Bois-mix3_19Mar2023.mp3"
+              },
+              {
+                "trackId":8,
+                "name": "Hillians",
+                "year": " (2023)",
+                "file": "Hillians-mix4_16Sep2023.mp3"
+              },
+              {
+                "trackId":9,
+                "name": "King Of Comedy",
+                "year": " (2023)",
+                "file": "King_Of_Comedy-mix4_16Seo2023.mp3"
+              },
+              {
+                "trackId":10,
+                "name": "Forget Me Not",
+                "year": " (2023)",
+                "file": "Forget_me_Not-mix4_12Sep2023.mp3"
+              }
+            ]
+            },
+            {
+              "n_tab":6,
+              "name": "nav-mst1",
+              "tabTit": "Mst-1",
+              "title": "Masters-1",
+              "text": " : Masters.",
+              "active": "",
+              "collapse": "collapse show",
+              "tabId": "",
+              "tracks": [
+                {
+                  "trackId":1,
+                  "name": "Pay the Piper",
+                  "year": " (2021)",
+                  "file": "PayThePiper-mst1_13Mar2021.mp3"
+                },
+                {
+                  "trackId":2,
+                  "name": "Banger Racer",
+                  "year": " (2021)",
+                  "file": "Banger_Racer-mst1_06Mar2021.mp3"
+                },
+                {
+                  "trackId":3,
+                  "name": "I Hate",
+                  "year": " (2022)",
+                  "file": "IHate-mst1_20Jul2022.mp3"
+                },
+                {
+                  "trackId":4,
+                  "name": "Cheesy Chips",
+                  "year": " (2022)",
+                  "file": "Cheesy_Chips-mst1_20Jul2022.mp3"
+                },
+                {
+                  "trackId":5,
+                  "name": "Scour",
+                  "year": " (2023)",
+                  "file": "Scour-mst1_28Mar2023.mp3"
+                },
+                {
+                  "trackId":6,
+                  "name": "Concrete",
+                  "year": " (2023)",
+                  "file": "Concrete-mst1_28Mar2023.mp3"
+                },
+                {
+                  "trackId":7,
+                  "name": "Bois",
+                  "year": " (2023)",
+                  "file": "Bois-mst1_28Mar2023.mp3"
+                },
+                {
+                  "trackId":8,
+                  "name": "Hillians",
+                  "year": " (2023)",
+                  "file": "Hillians-mst1_17Sep2023.mp3"
+                },
+                {
+                  "trackId":9,
+                  "name": "King Of Comedy",
+                  "year": " (2023)",
+                  "file": "King_Of_Comedy-mst1_17Sep2023.mp3"
+                },
+                {
+                  "trackId":10,
+                  "name": "Forget Me Not",
+                  "year": " (2023)",
+                  "file": "Forget_Me_Not-mst1_17Sep2023.mp3"
+                },
+                {
+                  "trackId":11,
+                  "name": "(live) Fuck The Pain Away",
+                  "year": " (2023)",
+                  "file": "Fuck_The_Pain_Away.mp3"
+                }
+              ]
+              },
+              {
+                "n_tab":7,
+                "name": "nav-album",
+                "tabTit": "ALBUM",
+                "title": "Album Tracking | 28-Oct-2023",
+                "text": " : CD Master for duplication.",
+                "active": "",
+                "collapse": "collapse show",
+                "tabId": "",
+                "tracks": [
+                  {
+                    "trackId":8,
+                    "name": "Hillians",
+                    "year": " (2023)",
+                    "file": "Hillians-mst1_17Sep2023.mp3"
+                  },
+                  {
+                    "trackId":3,
+                    "name": "I Hate",
+                    "year": " (2022)",
+                    "file": "IHate-mst1_20Jul2022.mp3"
+                  },
+                  {
+                    "trackId":4,
+                    "name": "Cheesy Chips",
+                    "year": " (2022)",
+                    "file": "Cheesy_Chips-mst1_20Jul2022.mp3"
+                  },
+                  {
+                    "trackId":6,
+                    "name": "Concrete",
+                    "year": " (2023)",
+                    "file": "Concrete-mst1_28Mar2023.mp3"
+                  },
+                  {
+                    "trackId":2,
+                    "name": "Banger Racer",
+                    "year": " (2021)",
+                    "file": "Banger_Racer-mst1_06Mar2021.mp3"
+                  },
+                  {
+                    "trackId":5,
+                    "name": "Scour",
+                    "year": " (2023)",
+                    "file": "Scour-mst1_28Mar2023.mp3"
+                  },
+                  {
+                    "trackId":7,
+                    "name": "Bois",
+                    "year": " (2023)",
+                    "file": "Bois-mst1_28Mar2023.mp3"
+                  },
+                  {
+                    "trackId":9,
+                    "name": "King Of Comedy",
+                    "year": " (2023)",
+                    "file": "King_Of_Comedy-mst1_17Sep2023.mp3"
+                  },
+                  {
+                    "trackId":1,
+                    "name": "Pay the Piper",
+                    "year": " (2021)",
+                    "file": "PayThePiper-mst1_13Mar2021.mp3"
+                  },
+                  {
+                    "trackId":10,
+                    "name": "Forget Me Not",
+                    "year": " (2023)",
+                    "file": "Forget_Me_Not-mst1_17Sep2023.mp3"
+                  },
+                  {
+                    "trackId":11,
+                    "name": "(live) Fuck The Pain Away",
+                    "year": " (2023)",
+                    "file": "Fuck_The_Pain_Away.mp3"
+                  }
+                ]
+                }
+  ]
+}

@@ -8,26 +8,53 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-var isNoShow = document.querySelectorAll('.no-show');
-var isLand1 = document.querySelectorAll('.land-1');
-var isLand2 = document.querySelectorAll('.land-2');
-var isTracks = document.querySelector('#Tracks');
 
-isTracks.addEventListener('click', function () {
-    for (var i = 0, len = isNoShow.length; i < len; i++) {
-        isNoShow[i].classList.toggle('no-show');
-    }
-    for (var i = 0, len = isLand1.length; i < len; i++) {
-        isLand1[i].classList.toggle('land-1');
-    }
-    for (var i = 0, len = isLand2.length; i < len; i++) {
-        isLand2[i].classList.toggle('land-2');
-    }
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                resolve(document.querySelector(selector));
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+
+
+// wait till relevant elems from tracks.js are loaded
+waitForElm('#Tracks').then((elm) => {
+    console.log('Tracks Element is ready');
+    var isNoShow = document.querySelectorAll('.no-show');
+    var isLand1 = document.querySelectorAll('.land-1');
+    var isLand2 = document.querySelectorAll('.land-2');
+    var isTracks = document.querySelector('#Tracks');
+    isTracks.addEventListener('click', function () {
+        for (var i = 0, len = isNoShow.length; i < len; i++) {
+            isNoShow[i].classList.toggle('no-show');
+        }
+        for (var i = 0, len = isLand1.length; i < len; i++) {
+            isLand1[i].classList.toggle('land-1');
+        }
+        for (var i = 0, len = isLand2.length; i < len; i++) {
+            isLand2[i].classList.toggle('land-2');
+        }
+    });
 });
+
 
 // 
 // Play/Pause tracks with single play click & when ended it moves to next track
 // Note: it should work on iOS devices
+
 window.onload = init;
 function init() {
     document.addEventListener('play', function (e) {
@@ -73,7 +100,6 @@ function init() {
         }, false)
       })
   })()
-  
 
 // Disable right-click menu on page
 window.addEventListener('contextmenu', function (e) { 

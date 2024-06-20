@@ -1,0 +1,1821 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HTML5 Music Badge | MB V0.3 Jan2021
+written by Sound Spinning | https://soundspinning.tumblr.com/ 
+-->
+
+<!-- head info starts here ... -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Music Badge | Sound Spinning</title>
+  <meta name="description" content="Music Badge App by Sound Spinning"/>
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  
+  <!-- Custom CSS -->
+  <link href="css/audio.css" rel="stylesheet" type='text/css'>
+  <!-- Custom CSS always last style entry ! -->
+
+</head>
+<!-- head ends here ... -->
+
+<!-- body info starts here ... -->
+<body class="container px-0 land-1" >
+<!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+  
+  <div id="siri-container" class="container outer land-1 back m-0 pt-3 pb-1">
+
+    <div class="row no-show">
+      <a class="col-4 ps-3 pe-0 justify-content-center" href="#" data-bs-toggle="modal" data-bs-target="#modal-Cover" data-bs-whatever="cover" data-bs-dismiss="modal" aria-hidden="true">
+        <img class="img-fluid" src="assets/sj-logo-opt.svg" alt="Sweet Jonny logo">
+      </a>
+      <span class="no-show navbar-txt col-8 ps-0">
+        <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer"><h1 class="mb-0">Sweet Jonny</h1></a>
+        <p class="mb-0 pt-1"><span class="sub-head">Dirty punk rock'n'roller gorehounda.<br></span>
+          <span class="my-0 p-0" data-bs-title="envelope-closed" aria-hidden="true"><i class="bi bi-envelope-fill"></i></span><a class="btn-link" href="mailto:info@sweetjonny.co.uk">&nbsp;&nbsp;info@sweetjonny.co.uk</a>
+        </p>
+        <p class="list-tit mt-sm-3">Album Production <small>(2021-23)</small></p>
+      </span>
+    </div>
+
+    <h2 class="no-show text-sm-left mb-1 d-flex justify-content-between">
+      <!-- Nav menu for TABS -->
+      <div class="nav nav-tabs list-tit" id="nav-tab" role="tablist">
+        <a class="nav-link btn-link" id="nav-m0-tab" data-bs-toggle="tab" href="#nav-m0" role="tab" aria-controls="nav-m0" aria-selected="false">M 0</a>
+        <a class="nav-link btn-link" id="nav-m1-tab" data-bs-toggle="tab" href="#nav-m1" role="tab" aria-controls="nav-m1" aria-selected="false">M 1</a>
+        <a class="nav-link btn-link" id="nav-m2-tab" data-bs-toggle="tab" href="#nav-m2" role="tab" aria-controls="nav-m2" aria-selected="false">M 2</a>
+        <a class="nav-link btn-link" id="nav-m3-tab" data-bs-toggle="tab" href="#nav-m3" role="tab" aria-controls="nav-m3" aria-selected="false">M 3</a>
+        <a class="nav-link btn-link" id="nav-m4-tab" data-bs-toggle="tab" href="#nav-m4" role="tab" aria-controls="nav-m4" aria-selected="false">M 4</a>
+        <a class="nav-link btn-link" id="nav-mst1-tab" data-bs-toggle="tab" href="#nav-mst1" role="tab" aria-controls="nav-mst1" aria-selected="false">Mst 1</a>
+        <a class="nav-link btn-link active" id="nav-album-tab" data-bs-toggle="tab" href="#nav-album" role="tab" aria-controls="nav-album" aria-selected="false">ALBUM</a>
+        <a class="nav-link btn-link" id="nav-feedback-tab" data-bs-toggle="tab" href="#nav-feedback" role="tab" aria-controls="nav-feedback" aria-selected="false">Feedback</a>
+      </div>
+      <!-- INFO button -->
+      <span data-bs-toggle="tooltip" title="Info" data-bs-placement="left" data-bs-delay="300">
+        <button type="button" class="btn btn-secondary btn-info px-2" data-bs-toggle="modal" data-bs-target="#modal-Info" data-bs-whatever="Info" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-info-circle-fill"></i></button>
+      </span>
+    </h2>
+
+    <!-- Main TABs content -->
+    <div class="tab-content" id="nav-tabContent">
+
+    <!-- TAB-album -->
+    <div class="tab-pane fade show active" id="nav-album" role="tabpanel" aria-labelledby="nav-album-tab">
+      <!-- accordion panel -->
+      <div class="land-2 accordion" id="accordion-6">
+        <div class="card mb-2 p-1">
+          <div class="card-header border-0 px-0 py-1" id="headingSix">
+            <h2 class="card-tit mb-0 px-2">
+              <button id="Tracks" class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">T R A C K S</button>
+            </h2>
+          </div>
+  
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#accordion-6">
+            <div class="card-body">
+              <p>
+                <strong>Album Tracking | 28-Oct-2023</strong>
+              </p>
+              <!-- Track 8 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Hillians <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T8" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Hillians-mst1_17Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            <!-- Track 3 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">I Hate <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/IHate-mst1_20Jul2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+            <!-- Track 4 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">Cheesy Chips <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Cheesy_Chips-mst1_20Jul2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+              <!-- Track 6 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Concrete <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T6" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Concrete-mst1_28Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 2 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Banger Racer <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Banger_Racer-mst1_06Mar2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 5 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Scour <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T5" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Scour-mst1_28Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 7 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Bois <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T7" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Bois-mst1_28Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 9 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">King Of Comedy <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T9" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/King_Of_Comedy-mst1_17Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 1 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave py-1"></i>
+                <h6 class="py-1 m-0">Pay the Piper <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                  </button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/PayThePiper-mst1_13Mar2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio> 
+              <br>
+
+              <!-- Track 10 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Forget Me Not <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Forget_Me_Not-mst1_17Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 11 -->
+              <span class="d-flex justify-content-center">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">  (live) Fuck The Pain Away <small>(2023)</small></h6>
+                <!-- <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span> -->
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Fuck_The_Pain_Away.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            </div>
+            <!-- card body ends -->
+          </div>
+          <!-- collapsable content ends -->
+        </div>
+        <!-- card ends -->
+      </div>
+      <!-- accordeon ends -->
+    </div>
+    <!-- TAB-album ends-->
+
+    <!-- TAB-mst1 -->
+    <div class="tab-pane fade" id="nav-mst1" role="tabpanel" aria-labelledby="nav-mst1-tab">
+      <!-- accordion panel -->
+      <div class="land-2 accordion" id="accordion-5">
+        <div class="card mb-2 p-1">
+          <div class="card-header border-0 px-0 py-1" id="headingFive">
+            <h2 class="card-tit mb-0 px-2">
+              <button id="" class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">T R A C K S</button>
+            </h2>
+          </div>
+  
+          <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-bs-parent="#accordion-5">
+            <div class="card-body">
+              <p>
+                <strong>Mst-1</strong> : Masters.
+              </p>
+              <!-- Track 1 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave py-1"></i>
+                <h6 class="py-1 m-0">Pay the Piper <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                  </button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/PayThePiper-mst1_13Mar2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio> 
+              <br>
+  
+              <!-- Track 2 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Banger Racer <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Banger_Racer-mst1_06Mar2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            <!-- Track 3 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">I Hate <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/IHate-mst1_20Jul2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+            <!-- Track 4 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">Cheesy Chips <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Cheesy_Chips-mst1_20Jul2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+              <!-- Track 5 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Scour <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T5" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Scour-mst1_28Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 6 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Concrete <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T6" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Concrete-mst1_28Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 7 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Bois <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T7" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Bois-mst1_28Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 8 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Hillians <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T8" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Hillians-mst1_17Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 9 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">King Of Comedy <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T9" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/King_Of_Comedy-mst1_17Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 10 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Forget Me Not <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Forget_Me_Not-mst1_17Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 11 -->
+              <span class="d-flex justify-content-center">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">  (live) Fuck The Pain Away <small>(2023)</small></h6>
+                <!-- <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span> -->
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Fuck_The_Pain_Away.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            </div>
+            <!-- card body ends -->
+          </div>
+          <!-- collapsable content ends -->
+        </div>
+        <!-- card ends -->
+      </div>
+      <!-- accordeon ends -->
+    </div>
+    <!-- TAB-mst1 ends-->
+
+    <!-- TAB-M4 -->
+    <div class="tab-pane fade" id="nav-m4" role="tabpanel" aria-labelledby="nav-m4-tab">
+      <!-- accordion panel -->
+      <div class="land-2 accordion" id="accordion-4">
+        <div class="card mb-2 p-1">
+          <div class="card-header border-0 px-0 py-1" id="headingFour">
+            <h2 class="card-tit mb-0 px-2">
+              <button id="" class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">T R A C K S</button>
+            </h2>
+          </div>
+  
+          <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-bs-parent="#accordion-4">
+            <div class="card-body">
+              <p>
+                <strong>Mix-4</strong> : Mixes 99.999% there before Mastering.
+              </p>
+              <!-- Track 1 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave py-1"></i>
+                <h6 class="py-1 m-0">Pay the Piper <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                  </button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Pay_the_Piper-mix4b_13Mar2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio> 
+              <br>
+  
+              <!-- Track 2 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Banger Racer <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Banger_Racer-mix4b_06Mar2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            <!-- Track 3 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">I Hate <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/I_Hate-mix4_17Jul2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+            <!-- Track 4 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">Cheesy Chips <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Cheesy_Chips-mix4_17Jul2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+              <!-- Track 5 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Scour <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T5" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Scour-mix4_25Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 6 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Concrete <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T6" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Concrete-mix4_25Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 7 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Bois <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T7" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Bois-mix3_19Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 8 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Hillians <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T8" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Hillians-mix4_16Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 9 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">King Of Comedy <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T9" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/King_Of_Comedy-mix4_16Seo2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 10 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Forget Me Not <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Forget_me_Not-mix4_12Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+            </div>
+            <!-- card body ends -->
+          </div>
+          <!-- collapsable content ends -->
+        </div>
+        <!-- card ends -->
+      </div>
+      <!-- accordeon ends -->
+    </div>
+    <!-- TAB-M4 ends-->
+
+    <!-- TAB-M3 -->
+    <div class="tab-pane fade" id="nav-m3" role="tabpanel" aria-labelledby="nav-m3-tab">
+    <!-- accordion panel -->
+    <div class="land-2 accordion" id="accordion-3">
+      <div class="card mb-2 p-1">
+        <div class="card-header border-0 px-0 py-1" id="headingThree">
+          <h2 class="card-tit mb-0 px-2">
+            <button id="" class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">T R A C K S</button>
+          </h2>
+        </div>
+
+        <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-bs-parent="#accordion-3">
+          <div class="card-body">
+            <p>
+              <strong>Mix-3</strong> : Mixes 90% there before Mastering.
+            </p>
+            <!-- Track 1 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave py-1"></i>
+              <h6 class="py-1 m-0">Pay the Piper <small>(2021)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                </button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Pay_the_Piper-mix3_20Feb2021.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio> 
+            <br>
+
+            <!-- Track 2 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">Banger Racer <small>(2021)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Banger_Racer-mix3_20Feb2021.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+            <!-- Track 3 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">I Hate <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/I_Hate-mix3_18Jun2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+            <!-- Track 4 -->
+            <span class="d-flex justify-content-between">
+              <i class="bi bi-soundwave pt-1"></i>
+              <h6 class="pt-1">Cheesy Chips <small>(2022)</small></h6>
+              <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+              </span>
+            </span>
+            <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+            <source src="assets/Cheesy_Chips-mix3_18Jun2022.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.</audio>
+            <br>
+
+              <!-- Track 5 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Scour <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T5" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Scour-mix3_19Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 6 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Concrete <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T6" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Concrete-mix3_19Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 7 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Bois <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T7" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Bois-mix3_19Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 8 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Hillians <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T8" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Hillians-mix3_05Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 9 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">King Of Comedy <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T9" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/King_Of_Comedy-mix3_05Seo2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 10 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Forget Me Not <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Forget_me_Not-mix3_05Sep2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+          </div>
+          <!-- card body ends -->
+        </div>
+        <!-- collapsable content ends -->
+      </div>
+      <!-- card ends -->
+    </div>
+    <!-- accordeon ends -->
+    </div>
+    <!-- TAB-M3 ends-->
+
+    <!-- TAB-M2 -->
+    <div class="tab-pane fade" id="nav-m2" role="tabpanel" aria-labelledby="nav-m2-tab">
+      <!-- accordion panel -->
+      <div class="land-2 accordion" id="accordion-2">
+        <div class="card mb-2 p-1">
+          <div class="card-header border-0 px-0 py-1" id="headingTwo">
+            <h2 class="card-tit mb-0 px-2">
+              <button id="" class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">T R A C K S</button>
+            </h2>
+          </div>
+  
+          <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordion-2">
+            <div class="card-body">
+              <p>
+                <strong>Mix-2</strong> : All in now. Mixes 75% there before Mastering.
+              </p>
+              <!-- Track 1 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave py-1"></i>
+                <h6 class="py-1 m-0">Pay the Piper <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                  </button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Pay_the_Piper-mix2_14Feb2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio> 
+              <br>
+  
+              <!-- Track 2 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Banger Racer <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Banger_Racer-mix2_14Feb2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 3 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">I Hate <small>(2022)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/I_Hate-mix2b_19Mar2022.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 4 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Cheesy Chips <small>(2022)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Cheesy_Chips-mix2_18Mar2022.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 5 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Scour <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T5" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Scour-mix2_06Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 6 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Concrete <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T6" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Concrete-mix2_07Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 7 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Bois <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T7" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Bois-mix2_07Mar2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 8 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Hillians <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T8" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Hillians-mix2_01Aug2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 9 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">King Of Comedy <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T9" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/King_Of_Comedy-mix2_11Aug2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 10 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Forget Me Not <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Forget_me_Not-mix2_15Aug2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            </div>
+            <!-- card body ends -->
+          </div>
+          <!-- collapsable content ends -->
+        </div>
+        <!-- card ends -->
+      </div>
+      <!-- accordeon ends -->
+    </div>
+    <!-- TAB-M2 ends-->
+
+    <!-- TAB-M1-->
+    <div class="tab-pane fade" id="nav-m1" role="tabpanel" aria-labelledby="nav-m1-tab">
+      <!-- accordion panel -->
+      <div class="land-2 accordion" id="accordion-1">
+        <div class="card mb-2 p-1">
+          <div class="card-header border-0 px-0 py-1" id="headingOne">
+            <h2 class="card-tit mb-0 px-2">
+              <button id="" class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">T R A C K S</button>
+            </h2>
+          </div>
+  
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion-1">
+            <div class="card-body">
+              <p>
+                <strong>Mix-1</strong> : First layer of minor production on bass &amp; vox. No micro-edits, fader riding, reverb, room ambience added as yet. Checking on keeping balance &amp; dynamics while adding some depth.
+              </p>
+              <!-- Track 1 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave py-1"></i>
+                <h6 class="py-1 m-0">Pay the Piper <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                  </button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Pay_the_Piper-mix1_24Jan2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio> 
+              <br>
+  
+              <!-- Track 2 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Banger Racer <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Banger_Racer-mix1_24Jan2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 3 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">I Hate <small>(2022)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/I_Hate-mix1_28Nov2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 4 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Cheesy Chips <small>(2022)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Cheesy_Chips-mix1_14Dec2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 5 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Scour <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T5" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Scour-mix1_18Feb2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 6 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Concrete <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T6" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Concrete-mix1_26Feb2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 7 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Bois <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T7" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Bois-mix1_26Feb2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 8 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Hillians <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T8" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Hillians-mix1_26Jun2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 9 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">King Of Comedy <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T9" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/King_Of_Comedy-mix1_26Jun2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 10 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Forget Me Not <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Forget_me_Not-mix1_26Jun2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            </div>
+            <!-- card body ends -->
+          </div>
+          <!-- collapsable content ends -->
+        </div>
+        <!-- card ends -->
+      </div>
+      <!-- accordeon ends -->
+    </div>
+    <!-- TAB-m1 ends-->
+
+    <!-- TAB-M0 -->
+    <!-- M0 = ground zero -->
+    <div class="tab-pane fade" id="nav-m0" role="tabpanel" aria-labelledby="nav-m0-tab">
+      <!-- accordion panel -->
+      <div class="land-2 accordion" id="accordionZero">
+        <div class="card mb-2 p-1">
+          <div class="card-header border-0 px-0 py-1" id="headingZero">
+            <h2 class="card-tit mb-0 px-2">
+              <button class="btn btn-link list-tit py-1 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">T R A C K S</button>
+            </h2>
+          </div>
+  
+          <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-bs-parent="#accordionZero">
+            <div class="card-body">
+              <p>
+                <strong>Mix-0, Ground Zero</strong> : Zero production. Only tech fixes on mics phase &amp; allignment from studio. Fader balance added. This is our ref for MAX dynamics as played &amp; recorded. After production, dynamics get gradually squashed, and we want to keep an eye on that.
+              </p>
+              <!-- Track 1 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave py-1"></i>
+                <h6 class="py-1 m-0">Pay the Piper <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T1" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i>
+                  </button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Pay_the_Piper-raw_clean_16Jan2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio> 
+              <br>
+  
+              <!-- Track 2 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Banger Racer <small>(2021)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T2" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Banger_Racer-raw_clean_16Jan2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 3 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">I Hate <small>(2022)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T3" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/I_Hate-mix0_27Nov2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 4 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Cheesy Chips <small>(2022)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T4" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Cheesy_Chips-mix0_14Dec2021.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 5 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Scour <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T5" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Scour-mix0_16Oct2022.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 6 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Concrete <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T6" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Concrete-mix0_11Dec2022.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 7 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Bois <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T7" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Bois-mix0_11Dec2022.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 8 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Hillians <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T8" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Hillians-mix0_25Jun2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 9 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">King Of Comedy <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T9" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/King_Of_Comedy-mix0_26Jun2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+              <!-- Track 10 -->
+              <span class="d-flex justify-content-between">
+                <i class="bi bi-soundwave pt-1"></i>
+                <h6 class="pt-1">Forget Me Not <small>(2023)</small></h6>
+                <span data-bs-toggle="tooltip" title="Lyrics" data-bs-placement="auto" data-bs-delay="300">
+                  <button type="button" class="btn btn-secondary btn-info mb-1 px-2" data-bs-toggle="modal" data-bs-target="#modal-T10" data-bs-whatever="Lyrics" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-journal-richtext"></i></button>
+                </span>
+              </span>
+              <audio class="w-100 p-1" controls controlsList="nodownload" preload="metadata">
+              <source src="assets/Forget_me_Not-mix0_25Jun2023.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.</audio>
+              <br>
+
+            </div>
+            <!-- card body ends -->
+          </div>
+          <!-- collapsable content ends -->
+        </div>
+        <!-- card ends -->
+      </div>
+      <!-- accordeon ends -->
+    </div>
+    <!-- TAB-M0 ends-->
+
+    <!-- TAB-feedback -->
+    <div class="tab-pane fade" id="nav-feedback" role="tabpanel" aria-labelledby="nav-feedback-tab">
+      <form class="needs-validation" 
+        novalidate
+        action="https://formspree.io/f/mzbkwyzw"
+        method="POST"
+        enctype="multipart/form-data">
+        <input name="_redirectTo" type="hidden" value="https://soundspinning.github.io/SweetJonny2021">
+        <!-- Subject as hidden -->
+        <input name="_subject" type="hidden" value="Sweet Jonny: Scour, Concrete & Bois">
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required name="_replyto">
+          <div class="invalid-feedback">
+            Please enter a valid email.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="messageInput" class="form-label">Message <small>(pls read 1st info button)</small></label>
+          <textarea class="form-control" id="messageInput" rows="3" placeholder="write your feedback ..." required name="message"></textarea>
+          <div class="invalid-feedback">
+            Please enter a message.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary btn-link" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- TAB-feedback ends-->
+    
+    </div>
+    <!-- Main TABs content ends -->
+    
+
+    
+    <!-- FOOTER -->
+    <p class="no-show m-0 pt-1 ps-1 d-flex justify-content-between" style="color: grey;">
+      <small>MB by &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small>
+      <!-- <small><a class="btn-link" href="https://github.com/SoundSpinning/SweetJonny2021/tree/master/assets" target="_blank" rel="noopener noreferrer">WAV 24bit</a></small> -->
+    </p>
+    <!-- FOOTER end -->
+  </div>
+  <!-- main container ends -->
+
+
+  <!-- ALL MODALS from here -->
+  <!-- modal dialogues -->
+  <div class="modal fade" id="modal-Cover" tabindex="-1" role="dialog" aria-labelledby="modal-Cover" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-3 pb-0 px-0 d-block">
+          <h4 class="modal-title mb-1 ps-2">Sweet Jonny</h4>
+          <div class="modal-body m-0 p-0">
+            <img class="img-fluid" src="assets/sticker.jpg" alt="Sweet Jonny">
+          </div>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <!-- INFO modal -->
+  <div class="modal fade" id="modal-Info" tabindex="-1" role="dialog" aria-labelledby="modal-Info" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-3 pb-1 px-0 d-block">
+          <h4 class="modal-title mb-1 ps-3">Music Badge</h4>
+          <div class="modal-body mx-0 pt-1 pb-0">
+            <ul>
+              <li><em>Objectives</em>: to form a collaborative production process between the engineer and the band, so that progress is made via constructive feedback.</li>
+              <li>All tracks have been loudness normalised to a similar level as currently used by Spotify &amp; YouTube to set a fair comparison. This is a fairly recent change in music streamming, which may be the beginning of the end of the <em>Loudness War</em>.</li>
+              <li>The above means that you can open those apps in parallel, set their volume to max and compare (roughly) to the mixes. Use the main master control in your system to turn the music up / down.</li>
+              <li>This player allows for switching across tracks by clicking the play button. E.g. you can switch back / forth between tabs to compare versions of the same song.</li>
+              <li>When sending <em>Feedback</em> via the form, pls state the system you used for listening: phone, tablet, headphones, large speakers, car, etc; so that I can get some context. Have fun !</li>
+              <li>Some reading (if you're keen): <a href="https://www.masteringthemix.com/blogs/learn/76296773-mastering-audio-for-soundcloud-itunes-spotify-and-youtube" target="_blank" rel="noopener noreferrer" class="btn-link">Audio for Streamming Services</a> | <a href="https://dynamicrangeday.co.uk/about/" target="_blank" rel="noopener noreferrer" class="btn-link">Loudness War</a> | <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/eqloud.html" target="_blank" rel="noopener noreferrer" class="btn-link">Equal Loudness Curves</a></li>
+            </ul>
+            <br>
+            
+          </div>
+          <p class="m-0 pt-0 ps-1" style="color: lightgray;">MB <small>V0.3 &nbsp;Jan2021 &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>Tracks
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- INFO modal ends -->
+
+  <!-- LYRICS modals -->
+  <div class="modal fade" id="modal-T1" tabindex="-1" role="dialog" aria-labelledby="modal-T1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Pay the Piper</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              You know that living it up in the Hill's a <br>
+              bit like pissing the bed it's warm at first <br>
+              but you've got to clean it up.<br>
+              Get hooked on fags and bags and booze, <br>
+              you're going nowhere fast, <br>
+              the future's past you can't lose.<br>
+              (Chorus)<br>
+              <br>
+              Is Stockholm syndrom taking hold,<br>
+              Has Gary Burgess grown old.<br>
+              Still bullying blowjobs down by the cemetery.<br>
+              And will you take it on the chin,<br>
+              And what will end my suffering.<br>
+              <br>
+              I hear the farewell fanfares rise and falling again.<br>
+              Pay The Piper pick your poison. <br>
+              All the fun now at the fair has grown old.<br>
+              All that glitters is not gold, <br>
+              The truth be told we've been told that you're getting too old.<br>
+              (Guitar break riff)<br>
+              <br>
+              So now you've gone and got emotional <br>
+              on a Sunday morning are the adverts all making you cry.<br>
+              Because you've taken too much the night before, <br>
+              the only lover in your covers is your hand and you're getting too sore.<br>
+              (Chorus | Solo)<br>
+              <br>
+              So now the eulogy is mine to read.<br>
+              Stomped to death in sweat filled beds you shall be.<br>
+              Thank god euphoria has sucked me dry, <br>
+              kiss the girls and make them cry you're all done.<br>
+              (Chorus)<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <div class="modal fade" id="modal-T2" tabindex="-1" role="dialog" aria-labelledby="modal-T2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Banger Racer</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              I was born on the back seat of a banger.<br>
+              I love the smell of petrol, diesel and two stroke.<br>
+              You see in my blood stream,<br>
+              I got a genuine oil seam.<br>
+              I never wanted to be anything other.<br>
+              So strip away the glass, seats and the trim.<br>
+              Yeah my day job it can do one,<br>
+              You tell my boss I said do one.<br>
+              (Pre chorus)<br>
+              <br>
+              I'll have no regrets, my carbourators ait bled.<br>
+              A roll cage is all that I will require.<br>
+              My exhaust sets fire.<br>
+              A burn out and a bunch of bald tires.<br>
+              (Chorus)<br>
+              <br>
+              Cos I was born to be a banger racer. (x 3)<br>
+              <br>
+              So with motor oil I'll slick back my hair.<br>
+              And with a rollie on my lips fill her up,<br>
+              As she's running on Red Star:<br>
+              I siphoned it off a farmer.<br>
+              And with the welder I will spark up my fag.<br>
+              My lungs exhaust fumes, dirt and dust.<br>
+              It fills my head I feel clear.<br>
+              My knuckles slam her in gear.<br>
+              (Pre chorus | Chorus | Solo)<br>
+              <br>
+              (Bridge)<br>
+              So you tell my father and you tell my daughter's and you tell my wife where I have gone.<br>
+              And you'll know where to find me on the speedway start line with my shell suit and my helmet donned.<br>
+              <br>
+              I was born on the back seat of a banger.<br>
+              I love the smell of petrol, diesel and two stroke.<br>
+              You see in my blood stream.<br>
+              I got a genuine oil seam.<br>
+              (Chorus) <br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T3" tabindex="-1" role="dialog" aria-labelledby="modal-T3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">I Hate</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              I work in factory 54, my name's inconsequencial. <br>
+              My role is unfulfilling, and my last control is violence. <br>
+              The love between my wife and me, has long since died, departed. <br>
+              My two sons learn the hard way. My return they rightly fear it. <br>
+              <br>
+              Pre chorus <br>
+              <br>
+              Say what you looking at <br>
+              Say what you looking at <br>
+              He didn't care to answer so it's in his face I spat. <br>
+              Say what you looking at <br>
+              Say what you looking at <br>
+              Say what. You. Looking. At. <br>
+              <br>
+              Chorus <br>
+              <br>
+              I hate with my litle mind. <br>
+              <br>
+              Now my release is demo day. The prejudiced are proud. <br>
+              My motives they are questionable, I've downed a dozen Carling. <br>
+              A man upon the train piped up said "Have you no decorum?!" <br>
+              I bravely rose up from my seat and with this fist I floored him. <br>
+              <br>
+              Pre chorus <br>
+              <br>
+              Chorus
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T4" tabindex="-1" role="dialog" aria-labelledby="modal-T4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Cheesy Chips</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Cheesy chips that's what I said, donner meat in pitta bread. <br>
+              2am no chip shop's dead, outside the front where chavvies tread. <br>
+              That little div should be in bed, instead he nicked your bike and fled. <br>
+              Boi I've had enough he says, turns around and smacks your head. <br>
+              <br>
+
+              Abbra kebabra, charcoal grill, pissed insults hurled and now blood spill. <br>
+              A cosh is made from a fist of pounds, his Nike TN's now facewood bound. <br>
+              Don't let the sun set on you here, don't let the sun go down in this town. <br>
+              <br>
+              
+              Chorus <br>
+              A rallied battle cry is called, it's 4am outside your window. <br>
+              The scourge of Burge, of Haywards Grief, the calling card of a chavvie dinlo. <br>
+              A friend of a friend of a friend of a friend of a bruv of a cuz of a fam of a div of a boi. <br>
+              Chavvie Don Legs, Half Gram Dan, Mad Mike, The Kennedy Twins and of course Troy. <br>
+              <br>
+              Cheesy chips that's what I said, donner meat in pitta bread. <br>
+              2am no chip shop's dead, outside the front where chavvies tread. <br>
+              <br>
+              Cheesy chips that's what I said, donner meat in pitta bread. x4 <br>
+              <br>
+              Chorus
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T5" tabindex="-1" role="dialog" aria-labelledby="modal-T5Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Scour</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              It was cold I remember that much, and under the church is where I laid my head. <br>
+              Three days to my birthday I said, as the rain fell down to my makeshift bed. <br>
+              Sure the stars came alight that night, and fixed my vision on a dead moonlight. <br>
+              I told myself that you're stronger than this, that you won't get upset and it's you they'll miss. <br>
+              Though I just couldn't help myself as the tears streamed down her broken face. <br>
+              From the booze and the drugs and abuse, was my state laid bare under gold street light. <br>
+              And she screamed "Take a look at yourself!", she shook me, I held her, she praid for my health. <br>
+              I said I was sorry. But it was too late, as I woke she had left. <br>
+              <br>
+              Pre Chorus <br>
+
+              About that time I realised, you gotta help yourself. <br>
+              Stop feeling sorry for yourself. <br>
+              So I rise, roll a cigarette, to greet my lips as my body aches. <br>
+              Sure i'm low but I'm living, and I trick my mind just one last time. <br>
+              All the thoughts in my head seemed to clear, as I bellowed at that demon that I no longer feared. <br>
+              That I just don't need him, like he don't need me, this time when I left I was sure. <br>
+              No you ain't wanted here no more, the locks you changed on our front door. <br>
+              Let it all spew out. Your control. And your violence. Your obsession. You're on your own. <br>
+              I said now, you're on your own. <br>
+              <br>
+              Pre Chorus <br>
+              <br>
+              Mid 8 <br>
+              But now looking back, to the church and the multi story where I slept. <br>
+              To the food that I stole off people's discarded plates at those pubs. <br>
+              My ghost still haunts me. <br>
+              It's not your fault. <br>
+              It's not your fault. <br>
+              It's not your fault. <br>
+              It's not your fault. <br>
+              But then again it still is. <br>
+              And my mate Mike he went and took me in, <br>
+              His family helped me out. <br>
+              <br>
+              I'll scour my soul
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T6" tabindex="-1" role="dialog" aria-labelledby="modal-T6Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Concrete</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              There's a laugh, as it echoes be free <br>
+              The last laugh is graffiti­ed ten feet <br>
+              On a wall that was just down your street <br>
+              Now it's gone, in it's place is concrete. <br>
+              <br>
+              (Chorus) <br>
+              Just another day in paradise <br>
+              A perfect day in paradise <br>
+              It's all so funny, I just cannot seem to laugh <br>
+              Just another day in paradise <br>
+              Teenage bride needs a kid for some cash <br>
+              You can't live, if you can't pay the rent <br>
+              You can't leave, as the money is spent <br>
+              They're behind you, one hundred percent <br>
+              <br>
+              Chorus <br>
+              <br>
+              Mid 8 <br>
+              <br>
+              Chorus <br>
+              The Eternal Apprentice laid off <br>
+              From the dole, to the call center job <br>
+              If you're trained, it don't matter you snob <br>
+              To laugh last, it's the banks you must rob <br>
+              <br>
+              Chorus <br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T7" tabindex="-1" role="dialog" aria-labelledby="modal-T7Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Bois</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Chavvie dinlo crank them boys <br>
+              Chavvie dinlo crank dickoi <br>
+              You know who my brother is <br>
+              You know my sirname is Smith <br>
+              <br>
+              Chorus <br>
+              Na na na na <br>
+              <br>
+              Be a div, I'll chore that puff <br>
+              Be a div, that's no teenth bruv <br>
+              From the under pass, to the cold stone bench <br>
+              From the tinny I knicked, to the bike I skivved. <br>
+              <br>
+              Chorus <br>
+              Will the bois be bois, will the bois be bois, <br>
+              Will their bois be bois, bois be the bois <br>
+              <br>
+              Chorus <br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T8" tabindex="-1" role="dialog" aria-labelledby="modal-T8Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Hillians</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Hangman's humour will have it's way<br>
+              Have you heard who got banged up again.<br>
+              Do the splinters work their way into your head,<br>
+              Ten year stretch battered our joy again.<br>
+              <br>
+              Pre chorus<br>
+              Sleep round, small town, first fight all spite.<br>
+              Smoke fags, neck beer, do gear all night.<br>
+              Get away two weeks of the year sit tight.<br>
+              <br>
+              You big fish, small pond, don't make me laugh.<br>
+              Chat shit, you take, you never ask.<br>
+              Hangmans is such a thankless task.<br>
+              <br>
+              Chorus<br>
+              Hillians, Hillians, Hillians.<br>
+              Your youth shall fade.<br>
+              The consequence of Hillians remain.<br>
+              Better yourself. Better yourself. Better yourself.<br>
+              The fullboot yay.<br>
+              The consequence of Hillians remain.<br>
+              <br>
+              So rince my soul in the piss that flows,<br>
+              Who slept with who's bloke, bird you tell.<br>
+              Hear you, me roar, lad, chap, what a bore,<br>
+              His missus shagged who, really mate?<br>
+              <br>
+              Pre chorus<br>
+              Sleep round, small town, first fight all spite.<br>
+              Smoke fags, neck beer, do gear all night.<br>
+              Get away two weeks of the year sit tight.<br>
+              <br>
+              Chorus<br>
+              Hillians, Hillians, Hillians.<br>
+              Your youth shall fade.<br>
+              The consequence of Hillians remain.<br>
+              Better yourself. Better yourself. Better yourself.<br>
+              The fullboot yay.<br>
+              The consequence of Hillians remain.<br>
+              <br>
+              Pre Chorus<br>
+              Chorus<br>
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T9" tabindex="-1" role="dialog"aria-labelledby="modal-T9Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">King Of Comedy</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Poetic justice please. Warm wine and antifreeze.<br>
+              In life you find what you love and let it kill you.<br>
+              So are you Prospero? The self castrato.<br>
+              I've heard it all before, before you even said it.<br>
+              <br>
+              Pre Chorus<br>
+              Alpha. Brutus. Mother. Judas.<br>
+              Self destruction. Over prudence.<br>
+              Give up on all of your dreams. As boredom picks my bones clean.<br>
+              Of course we'll retrain as sparkies.<br>
+              Maybe you should try the army.<br>
+              Denial. Anger. Depression. Acceptance.<br>
+              Die<br>
+              <br>
+              Chorus<br>
+              So what's the love of your life.<br>
+              I'll be the love of your life.<br>
+              So what's the love of your life.<br>
+              <br>
+              Munchousenbiproxy. The King Of Comedy.<br>
+              In life you find what you love and let it kill you.<br>
+              And sweet banality. Shall devour me.<br>
+              Calm down and don't make a scene, gnashed tatters torn at the seams.<br>
+              <br>
+              Pre Chorus<br>
+              Alpha. Brutus. Mother. Judas.<br>
+              Self destruction. Over prudence.<br>
+              Give up on all of your dreams. As boredom picks my bones clean.<br>
+              Of course we'll retrain as sparkies.<br>
+              Maybe you should try the army.<br>
+              Denial. Anger. Depression. Acceptance.<br>
+              Die<br>
+              <br>
+              Chorus<br>
+              So what's the love of your life.<br>
+              I'll be the love of your life.<br>
+              So what's the love of your life.<br>
+              <br>
+              Mid 8<br>
+              The TV's on. The dinners made and all's forgiven. Suprise suprise another year.<br>
+              <br>
+              Accept the minimum wage. Fake social media gains.<br>
+              Go find your place in the sun. A melanoma sounds fun.<br>
+              Calm down and don't make a scene. Gnashed tatters torn at the seams.<br>
+              So I'll retrain as a sparkie or fail the medical for the army.<br>
+              Denial. Anger. Depression. Acceptance. Then die<br>
+              <br>
+              Chorus<br>
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T10" tabindex="-1" role="dialog" aria-labelledby="modal-T10Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Forget Me Not</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Forget, forget, forget me not.<br>
+              Grow wild along the cliffs where we last met.<br>
+              What I once was has faded,<br>
+              Gentle tender fading song.<br>
+              As dew upon the grass as morning comes.<br>
+              <br>
+              I stalked the beach, I watched the pier.<br>
+              I stole the rocks, I drank to steel myself.<br>
+              While once's not heavy on it's own my coat could hold no more.<br>
+              Disgraced, ashamed, the coward that I am.<br>
+              <br>
+              My friend. My friend. My tender friend.<br>
+              We can't begin to know but this I know.<br>
+              Embers of our embrace shall glow. The void you leave's too great.<br>
+              You're loved, you're loved, you're loved, you're loved, you're loved.<br>
+              <br>
+              Serene. Serene. Serene I'm told.<br>
+              The lapping of the waves, my coat is cold.<br>
+              I'm nervous, tired, lost, a lair.<br>
+              I'm sorry yet I'm resigned.<br>
+              I'm sorry yes I am sorry yet I'm resigned.<br>
+              <br>
+              Forget, forget, forget me nots.<br>
+              Grow wild along the cliffs where we once met.<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="m-0 ps-2 copy"><small>&copy; Tom Backshall &amp; <a class="btn-link" href="https://sweetjonny.co.uk" target="_blank" rel="noopener noreferrer">Sweet Jonny</a></small></p>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <!-- /.modal -->
+  <!-- LYRICS modals end -->
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap CDNs -->
+  <!-- Bootstrap 5.0 Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+
+  <!-- CUSTOM JS -->
+  <script src="js/audio.js"></script>
+
+</body>
+<!-- body ends here ... -->
+</html>

@@ -81,7 +81,7 @@ function init() {
 
 
 // starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
+function checkForm() {
     'use strict'
   
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -99,7 +99,8 @@ function init() {
           form.classList.add('was-validated')
         }, false)
       })
-  })()
+  }
+checkForm;
 
 // Disable right-click menu on page
 window.addEventListener('contextmenu', function (e) { 

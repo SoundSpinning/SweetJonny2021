@@ -1,13 +1,13 @@
 { "tabs": [
     {
     "n_tab":1,
-    "tabTit": "M-0",
+    "tabTit": "M0",
     "name": "nav-m0",
     "title": "Mix-0, G-Zero",
     "text": " : Zero production. Only tech fixes on mics phase &amp; allignment from studio. Fader balance added. This is our ref for MAX dynamics as played &amp; recorded. After production, dynamics get gradually squashed, and we want to keep an eye on that.",
-    "active": "show active",
-    "collapse": "collapse",
-    "tabId": "Tracks",
+    "active": "",
+    "collapse": "collapse show",
+    "tabId": "",
     "tracks": [
       {
         "trackId":1,
@@ -74,7 +74,7 @@
     {
       "n_tab":2,
       "name": "nav-m1",
-      "tabTit": "M-1",
+      "tabTit": "M1",
       "title": "Mix-1",
       "text": " : First layer of minor production on bass &amp; vox. No micro-edits, fader riding, reverb, room ambience added as yet. Checking on keeping balance &amp; dynamics while adding some depth.",
       "active": "",
@@ -146,7 +146,7 @@
       {
         "n_tab":3,
         "name": "nav-m2",
-        "tabTit": "M-2",
+        "tabTit": "M2",
         "title": "Mix-2",
         "text": " : All in now. Mixes 75% there before Mastering.",
         "active": "",
@@ -218,7 +218,7 @@
         {
           "n_tab":4,
           "name": "nav-m3",
-          "tabTit": "M-3",
+          "tabTit": "M3",
           "title": "Mix-3",
           "text": " : Mixes 90% there before Mastering.",
           "active": "",
@@ -290,7 +290,7 @@
           {
             "n_tab":5,
             "name": "nav-m4",
-            "tabTit": "M-4",
+            "tabTit": "M4",
             "title": "Mix-4",
             "text": " : Mixes 99.999% there before Mastering.",
             "active": "",
@@ -362,7 +362,7 @@
             {
               "n_tab":6,
               "name": "nav-mst1",
-              "tabTit": "Mst-1",
+              "tabTit": "Mst1",
               "title": "Masters-1",
               "text": " : Masters.",
               "active": "",
@@ -443,9 +443,9 @@
                 "tabTit": "ALBUM",
                 "title": "Album Tracking | 28-Oct-2023",
                 "text": " : CD Master for duplication.",
-                "active": "",
-                "collapse": "collapse show",
-                "tabId": "",
+                "active": "show active",
+                "collapse": "collapse",
+                "tabId": "Tracks",
                 "tracks": [
                   {
                     "trackId":8,
